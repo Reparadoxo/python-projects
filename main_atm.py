@@ -15,6 +15,7 @@ def contagemNotas(valor):
     nota10 = 0 
     nota5 = 0 
     nota2 = 0
+    sobra = 0
     while valor != 0:
         if valor - 100 >= 0:
             valor -= 100
