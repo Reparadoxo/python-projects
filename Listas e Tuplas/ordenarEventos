@@ -1,0 +1,7 @@
+def main():
+    eventos_registrados = ['4 Encerramento', '3 Palestra', '2 Palestra', '1 Abertura']
+    eventos_registrados.sort()
+    print(f"{eventos_registrados}")
+
+if __name__ == "__main__":
+    main()
